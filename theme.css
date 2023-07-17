@@ -34,12 +34,12 @@ Very sketchy theme based on the Obsidianite theme by @Benny Guo
   --font-family-preview: 'Rubik'; /* done */
   --checkbox-color: #F7407B; /* done */
   --bg-sub-accent-55: rgba(104, 86, 244, 0.917); /* idk */
-  --bg-accent-55: rgba(247, 224, 14, 0.896); /* idk */
+  --bg-accent-55: rgba(14, 173, 247, 0.896); /* idk */
   --bg-accent-25: rgba(43, 42, 61, 1); /* done */
   --text-highlight-bg: rgba(255, 0, 0, ); /* idk */
   --background-modifier-border: rgba(34, 34, 54, .3); /* done */
   --background-modifier-form-field: #0A0A10; /* done */
-  --test-color: rgba(149, 122, 247, 0.898); /* idk */
+  --test-color: rgba(145, 104, 214, 0.25); /* idk */
   --editor-border-color: #222236; /* done */
 }
 
