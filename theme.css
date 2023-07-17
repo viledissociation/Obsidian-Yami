@@ -41,6 +41,7 @@ Very sketchy theme based on the Obsidianite theme by @Benny Guo
   --background-modifier-form-field: #0A0A10; /* done */
   --test-color: rgba(145, 104, 214, 0.25); /* idk */
   --editor-border-color: #222236; /* done */
+  --background-modifier-border-hover: #222236; /* done */
 }
 
 /******************************************
