@@ -425,9 +425,9 @@ h6 {
 .cm-strong,
 strong {
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: linear-gradient(62deg, #a84ece  0%, #F7407B 100%) !important;
   padding: 0;
-  color: #7aa2f7;
+  color: white;
   background-color: #7aa2f7;
   background-image: linear-gradient(62deg, #a84ece  0%, #F7407B 100%) !important; 
 }
