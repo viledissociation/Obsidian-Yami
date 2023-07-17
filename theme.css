@@ -259,79 +259,6 @@ span.cm-formatting-list,
   padding-top: 0;
 }
 
-/* OBSIDIANITE CHECKBOXES */
-
-.contains-task-list .task-list-item .contains-task-list {
-  padding-inline-start: 5px;
-}
-
-.contains-task-list .task-list-item ul.contains-task-list::before {
-  left: -46px !important;
-  border-width: 2px;
-}
-
-.contains-task-list .task-list-item {
-  position: relative;
-  vertical-align: middle;
-  box-sizing: border-box;
-  padding-left: 30px;
-}
-
-.markdown-preview-view ul > li.task-list-item {
-  text-indent: -3em;
-}
-
-.contains-task-list .task-list-item input[type='checkbox'] {
-  position: relative;
-  top: 2px;
-  left: -8px;
-  width: 20px;
-  height: 20px;
-  margin: 0;
-  opacity: 1;
-  z-index: 10;
-}
-
-.markdown-preview-view .list-collapse-indicator {
-  margin-left: -80px !important;
-  box-sizing: border-box;
-}
-
-.contains-task-list .task-list-item::before {
-  content: '';
-  position: absolute;
-  top: 2px;
-  left: -25px;
-  width: 20px;
-  height: 20px;
-  display: inline-flex;
-  justify-content: center;
-  border: 2px solid #9e9e9e;
-  margin-right: 15px;
-  border-radius: 3px;
-  transition: all 0.3s;
-  box-sizing: border-box;
-  z-index: 1;
-}
-
-.contains-task-list .is-checked.task-list-item::before {
-  border: 10px solid var(--text-accent);
-  animation: bounce 300ms;
-}
-
-.contains-task-list .is-checked.task-list-item::after {
-  content: '';
-  position: absolute;
-  top: 8px;
-  left: -21px;
-  border-right: 3px solid transparent;
-  border-bottom: 3px solid transparent;
-  transform: rotate(45deg);
-  transform-origin: 0% 100%;
-  animation: checked-box 125ms 250ms forwards;
-  z-index: 5;
-}
-
 .markdown-preview-view ul > li.task-list-item.is-checked {
   text-decoration: line-through !important;
   color: var(--interactive-accent) !important;
@@ -340,42 +267,6 @@ span.cm-formatting-list,
 .markdown-preview-view ul > li.task-list-item.is-checked ul > li:not(.is-checked) {
   text-decoration: none !important;
   color: var(--text-normal) !important;
-}
-
-@keyframes checked-box {
-  0% {
-    width: 0;
-    height: 0;
-    border-color: #212121;
-    transform: translate(0, 0) rotate(45deg);
-  }
-  33% {
-    width: 4px;
-    height: 0;
-    border-color: #212121;
-    transform: translate(0, 0) rotate(45deg);
-  }
-  100% {
-    width: 4px;
-    height: 8px;
-    border-color: #212121;
-    transform: translate(0, -8px) rotate(45deg);
-  }
-}
-
-@keyframes bounce {
-  0% {
-    border-width: 2px;
-    /* transform: scale(1); */
-  }
-  33% {
-    border-width: 4px;
-    /* transform: scale(0.7); */
-  }
-  100% {
-    border-width: 10px;
-    /* transform: scale(1); */
-  }
 }
 
 /**************************************
