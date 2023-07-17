@@ -27,6 +27,8 @@ Very sketchy theme based on the Obsidianite theme by @Benny Guo
   --interactive-accent: rgba(43, 42, 61, 1); /* done */
   --interactive-accent-hover: #2B2A3D; /* done */
   --interactive-before: #ff0000; /* idk */
+  --interactive-normal: #222236; /* done */
+  --interactive-hover: #2B2A3D; /* done */
   --blockquote-border: #21c42c; /* idk */
   --tag-background: rgba(255, 255, 255, 0); /* done */
   --interactive-accent-rgb: #4d3dfbec; /* idk */
