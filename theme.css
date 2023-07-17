@@ -126,6 +126,13 @@ Very sketchy theme based on the Obsidianite theme by @Benny Guo
   transition: 0.5s;
 }
 
+input[type="search"]::placeholder {
+  color: var(--text-all-over);
+}
+
+.omnisearch-input-field .prompt-input::placeholder {
+  color: var(--text-all-over); 
+}
 .status-bar:hover {
   opacity: 1;
   transition: 0.2s;
