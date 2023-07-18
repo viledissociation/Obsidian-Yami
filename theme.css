@@ -32,8 +32,8 @@ Very sketchy theme based on the Obsidianite theme by @Benny Guo
   --blockquote-border: #21c42c; /* idk */
   --tag-background: rgba(255, 255, 255, 0); /* done */
   --interactive-accent-rgb: #4d3dfbec; /* idk */
-  --font-family-editor: 'Rubik';  /* done */
-  --font-family-preview: 'Rubik'; /* done */
+  --font-family-editor: 'Droid Sans Mono';  /* done */
+  --font-family-preview: 'Droid Sans Mono'; /* done */
   --checkbox-color: #F7407B; /* done */
   --bg-sub-accent-55: rgba(145, 104, 214, 0.25); /* done */
   --bg-accent-55: rgba(145, 104, 214, 0.25); /* done */
