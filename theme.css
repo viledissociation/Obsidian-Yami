@@ -279,6 +279,7 @@ span.cm-formatting-list,
   color: var(--text-normal) !important;
 }
 
+
 /**************************************
 | MAIN EDITOR / PREVIEW MODE
 | -------------------------------------
@@ -377,6 +378,11 @@ h6 {
   background-color: var(--background-primary)
   }
 
+.callout-icon {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: flex-start;
+}
 /**-------------------**
 | HR STYLES
 **--------------------**/
