@@ -38,7 +38,7 @@ Very sketchy theme based on the Obsidianite theme by @Benny Guo
   --bg-sub-accent-55: rgba(145, 104, 214, 0.25); /* done */
   --bg-accent-55: rgba(145, 104, 214, 0.25); /* done */
   --bg-accent-25: rgba(43, 42, 61, 1); /* done */
-  --text-highlight-bg: rgba(255, 0, 0, ); /* idk */
+  --text-highlight-bg: rgba(156, 112, 231, 0.157); /* idk */
   --background-modifier-border: rgba(34, 34, 54, .3); /* done */
   --background-modifier-form-field: #0A0A10; /* done */
   --test-color: rgba(145, 104, 214, 0.25); /* idk */
@@ -450,12 +450,6 @@ strong kbd {
 /**-------------------**
 | ITALIC STYLES
 **--------------------**/
-
-.cm-em,
-em {
-  color: #bb9af7 !important;
-  font-family: OperatorMonoSSmLig-Book, Rubik, var(--default-font) !important;
-}
 
 
 /**-------------------**
