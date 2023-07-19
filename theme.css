@@ -44,6 +44,7 @@ Very sketchy theme based on the Obsidianite theme by @Benny Guo
   --test-color: rgba(145, 104, 214, 0.25); /* idk */
   --editor-border-color: #222236; /* done */
   --background-modifier-border-hover: #222236; /* done */
+  --text-selection: #2A2B53; /* done */
 }
 
 /******************************************
@@ -145,6 +146,11 @@ input[type="search"]::placeholder {
 .theme-dark .notice {
   background-color: var(--background-primary-alt);
   color: var(--text-accent);
+}
+
+.textLayer ::selection,
+.xfaLayer .highlight {
+  background-color: rgba(255, 255, 255, 0.873);
 }
 
 /** NAVIGATION / SIDE-DOCK **/
