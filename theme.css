@@ -45,6 +45,17 @@ Very sketchy theme based on the Obsidianite theme by @Benny Guo
   --editor-border-color: #222236; /* done */
   --background-modifier-border-hover: #222236; /* done */
   --text-selection: #2A2B53; /* done */
+  --code-normal: var(--text-normal);
+  --code-comment: #5C6370;
+  --code-function: #3DC0E1;
+  --code-important: #af8bf3;
+  --code-keyword: #af8bf3;
+  --code-operator: #af8bf3;
+  --code-property: #af8bf3;
+  --code-punctuation: var(--text-normal);
+  --code-string: #EAD653;
+  --code-tag: #FA414F;
+  --code-value: #FA414F;
 }
 
 /******************************************
