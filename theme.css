@@ -51,7 +51,7 @@ Very sketchy theme based on the Obsidianite theme by @Benny Guo
   --code-important: #af8bf3;
   --code-keyword: #af8bf3;
   --code-operator: #af8bf3;
-  --code-property: #af8bf3;
+  --code-property: var(--text-normal);
   --code-punctuation: var(--text-normal);
   --code-string: #EAD653;
   --code-tag: #FA414F;
@@ -957,55 +957,6 @@ blockquote {
 
 /** code syntax theme **/
 
-.theme-dark .cm-s-obsidian span.cm-comment {
-  color: #5C6370;
-}
-.cm-s-obsidian span.cm-string {
-  color: #EAD653;
-}
-.cm-s-obsidian span.cm-string-2 {
-  color: #EAD653;
-}
-.cm-s-obsidian span.cm-number {
-  color: #FF427E;
-}
-.cm-s-obsidian span.cm-variable {
-  color: var(--text-normal);
-}
-.cm-s-obsidian span.cm-variable-2 {
-  color: var(--text-normal);
-}
-.cm-s-obsidian span.cm-def {
-  color: #B9E453;
-}
-.cm-s-obsidian span.cm-operator {
-  color: #af8bf3;
-}
-.cm-s-obsidian span.cm-keyword {
-  color: #af8bf3;
-}
-.cm-s-obsidian span.cm-atom {
-  color: #bd93f9;
-}
-.cm-s-obsidian span.cm-tag {
-  color: #FA414F;
-}
-.cm-s-obsidian span.cm-attribute {
-  color: #B9E453;
-}
-.cm-s-obsidian span.cm-qualifier {
-  color: #af8bf3;
-}
-.cm-s-obsidian span.cm-property {
-  color: #af8bf3;
-}
-.cm-s-obsidian span.cm-builtin {
-  color: #af8bf3;
-}
-.cm-s-obsidian span.cm-variable-3,
-.cm-s-obsidian span.cm-type {
-  color: #af8bf3;
-}
 
 /** prism.js dracular theme **/
 
